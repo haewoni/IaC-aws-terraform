@@ -23,7 +23,7 @@
 
 ## 실습 과정 :mag_right:
 
-### step 01 : AWS CLI 사용하여 Terrafrom 설치하기
+### ☑️ step 01 : AWS CLI 사용하여 Terrafrom 설치하기
 ```
 # root 계정접속
 $ sudo su -
@@ -38,7 +38,7 @@ $ sudo su -
 # terraform -version
 ```
 
-### step 02 : AWS S3 버킷 생성하기
+### ☑️ step 02 : AWS S3 버킷 생성하기
 
 #### 2-1. 권한 부여 설정
 ```
@@ -118,7 +118,7 @@ terraform apply
 
 
 
-### step 03 : S3에 html 파일 업로드하고 endpoint로 확인하기
+### ☑️ step 03 : S3에 html 파일 업로드하고 endpoint로 확인하기
 
 #### 3-1. index.html 업로드
 
@@ -151,7 +151,7 @@ resource "aws_s3_bucket_website_configuration" "xweb_bucket_website_updated" {
 
 
 
-### step 04 : EC2 생성하기
+### ☑️ step 04 : EC2 생성하기
 
 ```
 # AWS 제공자 설정
